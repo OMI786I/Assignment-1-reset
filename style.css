@@ -88,3 +88,16 @@ body {
     rgb(243, 178, 178) 78%
   );
 }
+
+.fifth-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.fifth-section-img {
+  width: 220px;
+  border: 10px solid red;
+  border-radius: 200px;
+  padding: 20px;
+}
