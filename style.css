@@ -1,11 +1,38 @@
 body {
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .first-section {
-  width: 90%;
+  width: 100%;
 }
 .first-section-img {
   height: 100%;
   width: 100%;
+}
+
+.first-section-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.first-section-text-1,
+.first-section-text-2 {
+  position: absolute;
+  color: white;
+}
+
+.first-section-text-1 {
+  top: 20%;
+  font-size: 30px;
+}
+
+.first-section-text-2 {
+  top: 30%;
+  font-size: 50px;
+  text-align: center;
 }
