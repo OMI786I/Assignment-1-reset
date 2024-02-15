@@ -105,3 +105,12 @@ body {
 .grid-images {
   width: 95%;
 }
+
+.eighth-section {
+  background-color: #fde0e0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
