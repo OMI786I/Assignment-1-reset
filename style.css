@@ -57,3 +57,21 @@ body {
 .second-section img {
   width: 60%;
 }
+
+.third-section {
+  width: 100%;
+}
+.third-section-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.third-section img {
+  height: 100%;
+  width: 100%;
+}
+
+.third-section-container img {
+  position: relative;
+}
