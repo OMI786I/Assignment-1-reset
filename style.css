@@ -75,3 +75,16 @@ body {
 .third-section-container img {
   position: relative;
 }
+
+.fourth-section {
+  padding-top: 50px;
+  text-align: center;
+  font-size: x-large;
+  height: 300px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 19%,
+    rgb(243, 178, 178) 78%
+  );
+}
